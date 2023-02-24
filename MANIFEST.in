@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include north_theme *.css
+recursive-include north_theme *.csv
+recursive-include north_theme *.html
+recursive-include north_theme *.ico
+recursive-include north_theme *.js
+recursive-include north_theme *.json
+recursive-include north_theme *.md
+recursive-include north_theme *.png
+recursive-include north_theme *.py
+recursive-include north_theme *.svg
+recursive-include north_theme *.txt
+recursive-exclude north_theme *.pyc
