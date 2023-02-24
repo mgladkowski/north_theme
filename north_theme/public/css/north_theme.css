@@ -1,0 +1,28 @@
+body {
+	background: url("/assets/north_theme/images/body.jpg") no-repeat center center fixed;
+	background-size: cover;
+}
+.page-container {
+	background-color: #00000066 !important;
+}
+.divider {
+	display:none;
+}
+.widget.shortcut-widget-box {
+    border: solid 1px var(--bg-darkgrey);
+	background: var(--btn-default-bg);
+    height: 3rem;
+    border-radius: 0;
+}
+.widget .widget-head .widget-label{
+    padding-top: 0.35rem;
+}
+.widget .widget-head .widget-control {
+    padding-top: 0.3rem;
+}
+.widget.links-widget-box {
+	border: solid 1px var(--btn-default-bg);
+}
+.standard-sidebar-section {
+	background: #000000a0
+}
